@@ -7,7 +7,7 @@ import AccountsService, { Account } from '../../services/accounts.service';
   selector: 'app-account',
   templateUrl: './account.component.html',
   styleUrls: ['./account.component.css'],
-  providers: [LoggingService],
+  // providers: [LoggingService],
 })
 export class AccountComponent {
   @Input() account: Account = { name: '', status: '' };
